@@ -36,7 +36,7 @@ header {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: #ffffff;
     text-decoration: none;
@@ -57,7 +57,7 @@ header {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.85);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.95rem;
     transition: all 0.3s ease;
     padding: 0.6rem 1.2rem;
     border-radius: 20px;
@@ -75,7 +75,7 @@ header {
     display: none;
     background: none;
     border: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
     color: #ffffff;
     transition: transform 0.2s ease;
@@ -134,7 +134,7 @@ header {
 }
 
 .sidebar-logo {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 700;
     color: #dc2626;
 }
@@ -169,7 +169,7 @@ header {
 .nav-links-mobile a {
     text-decoration: none;
     color: #475569;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     display: block;
     padding: 1rem 1.25rem;
@@ -221,9 +221,9 @@ main {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
     color: #991b1b;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: 700;
     letter-spacing: -0.5px;
     position: relative;
@@ -231,11 +231,11 @@ main {
 }
 
 .hero p {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     color: #475569;
     max-width: 700px;
     margin: 0 auto;
-    line-height: 1.7;
+    line-height: 1.6;
     position: relative;
     z-index: 1;
 }
@@ -246,7 +246,7 @@ footer {
     text-align: center;
     padding: 2.5rem;
     color: #cbd5e1;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     border-top: 6px solid #dc2626;
 }
 
@@ -265,10 +265,10 @@ footer {
     }
 
     .hero h1 {
-        font-size: 2.25rem;
+        font-size: 1.8rem;
     }
 
     .hero p {
-        font-size: 1.1rem;
+        font-size: 0.95rem;
     }
 }
