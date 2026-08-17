@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil - SDN No 48 Manuju</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
 
     <!-- Header -->
     <header>
         <div class="nav-container">
             <a href="../index.html" class="logo">LOGO - SDN 48 MANUJU</a>
-            
+
             <!-- Desktop Nav -->
             <ul class="nav-links">
                 <li><a href="../index.html">Beranda</a></li>
@@ -45,10 +47,116 @@
 
     <!-- Main Content -->
     <main>
-        <div class="hero">
-            <h1>PROFIL SEKOLAH</h1>
-            <p>Halaman ini berisi informasi tentang profil dan sejarah SDN No 48 Manuju.</p>
-        </div>
+        <!-- Biodata Kepala Sekolah -->
+        <section class="profil-section" id="kepala-sekolah">
+            <div class="section-badge">
+                <span class="badge-icon">👤</span>
+                <span>Kepala Sekolah</span>
+            </div>
+            <h2 class="section-title">Biodata Kepala Sekolah</h2>
+
+            <div class="kepsek-card">
+                <div class="kepsek-photo-wrapper">
+                    <div class="kepsek-photo-placeholder" id="kepsek-photo">
+                        <!-- Ganti div ini dengan <img src="path/foto.jpg" alt="Foto Kepala Sekolah"> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none"
+                            stroke="#dc2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                        </svg>
+                        <span class="photo-label">Foto Kepala Sekolah</span>
+                    </div>
+                </div>
+
+                <div class="kepsek-info">
+                    <table class="biodata-table" id="biodata-table">
+                        <tbody>
+                            <tr>
+                                <td class="biodata-label">Nama Lengkap</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan nama kepala sekolah -->
+                                <td class="biodata-value" data-field="nama">.........................</td>
+                            </tr>
+                            <tr>
+                                <td class="biodata-label">NIP</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan NIP -->
+                                <td class="biodata-value" data-field="nip">.........................</td>
+                            </tr>
+                            <tr>
+                                <td class="biodata-label">Tempat, Tanggal Lahir</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan TTL -->
+                                <td class="biodata-value" data-field="ttl">.........................</td>
+                            </tr>
+                            <tr>
+                                <td class="biodata-label">Jenis Kelamin</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan jenis kelamin -->
+                                <td class="biodata-value" data-field="jk">.........................</td>
+                            </tr>
+                            <tr>
+                                <td class="biodata-label">Pendidikan Terakhir</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan pendidikan -->
+                                <td class="biodata-value" data-field="pendidikan">.........................</td>
+                            </tr>
+                            <tr>
+                                <td class="biodata-label">Pangkat / Golongan</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan pangkat/golongan -->
+                                <td class="biodata-value" data-field="pangkat">.........................</td>
+                            </tr>
+                            <tr>
+                                <td class="biodata-label">Masa Kerja</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan masa kerja -->
+                                <td class="biodata-value" data-field="masa-kerja">.........................</td>
+                            </tr>
+                            <tr>
+                                <td class="biodata-label">Alamat</td>
+                                <td class="biodata-separator">:</td>
+                                <!-- TODO: Isi dengan alamat -->
+                                <td class="biodata-value" data-field="alamat">.........................</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visi & Misi -->
+        <section class="profil-section" id="visi-misi">
+            <div class="section-badge">
+                <span class="badge-icon">🎯</span>
+                <span>Visi & Misi</span>
+            </div>
+            <h2 class="section-title">Visi & Misi Sekolah</h2>
+
+            <div class="visi-misi-grid">
+                <div class="visi-card">
+                    <div class="vm-icon">🔭</div>
+                    <h3>Visi</h3>
+                    <!-- TODO: Isi dengan visi sekolah -->
+                    <p class="vm-content" data-field="visi">
+                        .........................<br>
+                        (Isi dengan visi sekolah)
+                    </p>
+                </div>
+                <div class="misi-card">
+                    <div class="vm-icon">🚀</div>
+                    <h3>Misi</h3>
+                    <!-- TODO: Isi dengan poin-poin misi sekolah -->
+                    <ol class="misi-list" data-field="misi">
+                        <li>.........................</li>
+                        <li>.........................</li>
+                        <li>.........................</li>
+                        <li>.........................</li>
+                        <li>.........................</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -58,4 +166,5 @@
 
     <script src="../script.js"></script>
 </body>
+
 </html>
